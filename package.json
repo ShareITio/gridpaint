@@ -1,44 +1,44 @@
 {
-  "name": "gridpaint",
-  "version": "1.2.3",
-  "description": "a canvas for creating grid-based art in the browser",
-  "main": "index.js",
-  "scripts": {
-    "test": "node test.js",
-    "build-example": "browserify examples/browser.js | indexhtmlify --title gridpaint > example.html"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/misterhat/gridpaint.git"
-  },
-  "keywords": [
-    "pixel",
-    "paint",
-    "grid",
-    "painter",
-    "edit",
-    "art"
-  ],
-  "author": "Zorian Medwid <misterhat144@gmail.com>",
-  "license": "LGPL-3.0+",
-  "bugs": {
-    "url": "https://github.com/misterhat/gridpaint/issues"
-  },
-  "homepage": "https://github.com/misterhat/gridpaint#readme",
-  "dependencies": {
-    "deep-diff": "0.3.4",
-    "file-saver": "^1.3.3",
-    "inherits": "^2.0.3"
-  },
-  "optionalDependencies": {
-    "canvas": "^1.6.5"
-  },
-  "devDependencies": {
-    "browserify": "^14.3.0",
-    "image-diff": "^1.6.3",
-    "indexhtmlify": "^1.3.1"
-  },
-  "browser": {
-    "canvas": false
-  }
+    "name": "ShareITio/gridpaint",
+    "version": "1.2.3",
+    "description": "a canvas for creating grid-based art in the browser",
+    "main": "index.js",
+    "scripts": {
+        "test": "node test.js",
+        "build-example": "browserify examples/browser.js | indexhtmlify --title gridpaint > example.html"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ShareITio/gridpaint.git"
+    },
+    "keywords": [
+        "pixel",
+        "paint",
+        "grid",
+        "painter",
+        "edit",
+        "art"
+    ],
+    "author": "Zorian Medwid <misterhat144@gmail.com>",
+    "license": "LGPL-3.0+",
+    "bugs": {
+        "url": "https://github.com/misterhat/gridpaint/issues"
+    },
+    "homepage": "https://github.com/misterhat/gridpaint#readme",
+    "dependencies": {
+        "deep-diff": "0.3.4",
+        "file-saver": "^1.3.3",
+        "inherits": "^2.0.3"
+    },
+    "optionalDependencies": {
+        "canvas": "^1.6.5"
+    },
+    "devDependencies": {
+        "browserify": "^14.3.0",
+        "image-diff": "^1.6.3",
+        "indexhtmlify": "^1.3.1"
+    },
+    "browser": {
+        "canvas": false
+    }
 }
