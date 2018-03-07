@@ -40,7 +40,7 @@
         "indexhtmlify": "^1.3.1"
     },
     "browser": {
-        "canvas": false
+        "canvas-prebuilt": false
     },
     "directories": {
         "example": "examples",
