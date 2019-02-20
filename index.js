@@ -52,6 +52,7 @@ function GridPaint(options) {
     this.ctx = this.canvas.getContext('2d');
 
     this.background = true;
+    this.backgroundImageExport = null;
     this.colour = 0;
     this.cursor = { x: -1, y: -1 };
     this.grid = false;
